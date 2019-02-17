@@ -82,8 +82,8 @@
             sumOfcharCode = sumOfcharCode + userName.charCodeAt(i);
         }
         // 文字のコード番号の合計を診断結果の数値で割って、添え字の数字を決める
-        const index = sumOfcharCode % answer.length;
-        let result = answer[index];
+        const index = sumOfcharCode % answers.length;
+        let result = answers[index];
         // TODO {userName}をユーザーの名前に置き換える
         result = result.replace(/\{userName\}/g, userName);
         return result;
