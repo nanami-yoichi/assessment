@@ -42,7 +42,7 @@
         removeAllChildren(tweetDivided);
         const anchor = document.createElement('a');
         const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag='
-         + encodeURIComponent('猫ちゃんのいいところ') + '&ref_src=twsrc%5Etfw';
+         + encodeURIComponent('あなた様のいいところ') + '&ref_src=twsrc%5Etfw';
         anchor.setAttribute('href', hrefValue);
         anchor.className = "twitter-hashtag-button";
         anchor.setAttribute('data-text', result);
